@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//------------Accessing Element from the Array
 public class Assignment02 extends Exception
 {
         public static void main(String[] args)
