@@ -10,7 +10,7 @@ public class Subsets_Array {
     // `i`   ——> index of next element in set `S` to be processed
     public static void printPowerSet(int[] S, Deque<Integer> out, int i)
     {
-        // if all elements are processed, print the current subset
+        // -----if all elements are processed, print the current subset
         if (i < 0)
         {
             System.out.println(out);
