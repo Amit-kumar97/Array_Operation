@@ -1,5 +1,6 @@
 import java.util.Arrays; 
 public class Common_Elements {
+    
 public static void main(String[] args) 
     {
       int[] array1 = {1, 2, 5, 5, 8, 9, 7, 10};
