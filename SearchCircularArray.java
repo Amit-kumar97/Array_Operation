@@ -5,7 +5,8 @@ Search an element in a circularly sorted array
 Given a circularly sorted integer array, search an element in it. Assume there are no duplicates in the array, and
 the rotation is in the anti-clockwise direction.
 
-For example,
+For example:
+
 Input:
 nums = [8, 9, 10, 2, 5, 6]
 target = 10
@@ -61,7 +62,8 @@ public class SearchCircularArray {
                     //----------go searching in the left sorted half
                     right = mid - 1;
                 }
-                else {
+                else 
+                {
                     left = mid + 1;         //------------go searching right
                 }
             }
